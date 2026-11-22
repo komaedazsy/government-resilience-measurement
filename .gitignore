@@ -1,0 +1,25 @@
+# Do not commit credentials, raw scraped corpora, model weights, or publishers' PDFs
+.env
+.env.*
+!.env.example
+*secret*
+*token*.json
+credentials.json
+*.pem
+*.key
+.DS_Store
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+.ipynb_checkpoints/
+.idea/
+.vscode/
+models/
+checkpoints/
+outputs/
+data/full_corpus/
+data/raw_downloads/
+data/temporary/
+literature/pdfs/
+*.log
